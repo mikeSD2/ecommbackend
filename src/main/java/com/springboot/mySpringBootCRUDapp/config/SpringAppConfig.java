@@ -11,6 +11,6 @@ public class SpringAppConfig implements WebMvcConfigurer {
 
 		// Для Контроллера конфигурации отдельны поэтому создаем класс для настроек контроллера
 		// и тоже пишем addmapping. 
-        cors.addMapping("/eCommerceApi/**").allowedOrigins("http://18.226.170.212");
+        cors.addMapping("/eCommerceApi/**").allowedOrigins("http://localhost:4200");
     }
 }

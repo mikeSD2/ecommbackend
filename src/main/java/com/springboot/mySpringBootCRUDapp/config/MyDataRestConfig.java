@@ -57,6 +57,6 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         config.exposeIdsFor(domainTypes);
         // Можно дать разрешения сразу 
         // всем ркпозиториям по пути в addmapping в конфигурациях.
-        cors.addMapping("/eCommerceApi/**").allowedOrigins("http://52.55.12.10/");
+        cors.addMapping("/eCommerceApi/**").allowedOrigins("http://localhost:4200/");
     }
 }
